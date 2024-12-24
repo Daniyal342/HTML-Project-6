@@ -60,15 +60,28 @@ nav li a:hover{
     height: 20%;
 }
 
-.top-heading{
-    font-size: 50px;
-    line-height: 20px;
-    font-family: Verdana,;
+.top-heading p{
+    width: 100%;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: Georgia, serif;
     font-weight: bold;
+    color: #E7FBB4;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    background: #033747;
+    word-spacing: 3px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.top-heading p:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
 }
 
 .first-heading{
@@ -173,3 +186,25 @@ nav li a:hover{
     text-decoration: underline;
 }
 
+.top{
+    width: 100%;
+    height: 50px;
+    line-height: 75px;
+    background: #012733;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top a{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.top a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
